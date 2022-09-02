@@ -1,5 +1,5 @@
 {% set name = "mljar-mercury" %}
-{% set version = "1.1.5" %}
+{% set version = "1.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mljar-mercury-{{ version }}.tar.gz
-  sha256: 2146f58bd6f92c637b5da7e7636590fc5b505a918422eed6c1d7fce1dcc2136b
+  sha256: d45b28c907383bb3026cce2ceda3aa7e78afee5628360759a7fe048d36fe5036
 
 build:
   entry_points:
